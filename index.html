@@ -8,13 +8,17 @@
   <body>
 
 <!-- Exercice 1 -->
+<h2>Exercice 1</h2>
 <table>
 <caption>Ce que j'aime</caption>
+<thead>
 <tr>
   <th>sport</th>
   <th>réponse</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
   <td>Foot</td>
   <td>Non</td>
@@ -27,18 +31,24 @@
   <td>Boxe</td>
   <td>Oui</td>
 </tr>
+</tbody>
 </table>
 
 <!-- Exercice 2 -->
+<h2>Exercice 2</h2>
 <table>
   <caption>Liste de personnes</caption>
+
+<thead>
   <tr>
     <th>Nom</th>
     <th>Prénom</th>
     <th>Âge</th>
     <th>Ville</th>
   </tr>
+</thead>
 
+<tbody>
   <tr>
     <td>Leouf</td>
     <td>Georges</td>
@@ -73,18 +83,21 @@
     <td>30</td>
     <td>Loos</td>
   </tr>
+</tbody>
 </table>
 
 <!-- Exercice 3 -->
-
+<h2>Exercice 3 </h2>
 <table>
   <caption>Quel métier</caption>
+<thead>
   <tr>
     <th>Nom</th>
     <th>Prénom</th>
     <th>Status</th>
   </tr>
-
+</thead>
+<tbody>
   <tr>
     <td>Dehondt</td>
     <td>Matthieu</td>
@@ -120,24 +133,30 @@
     <td>Maxime</td>
     <td>Apprenant</td>
   </tr>
-
+</tbody>
+<tfoot>
   <tr>
     <th>name</th>
     <th>first name</th>
     <th>Status</th>
   </tr>
+</tfoot>
 </table>
 
 <!-- exercice 4 -->
+<h2>Exercice 4 :</h2>
 <table>
   <caption>Liste de livres</caption>
+<thead>
 <tr>
   <th>Titre</th>
   <th>Auteur</th>
   <th>Année</th>
   <th>Avis</th>
 </tr>
+</thead>
 
+<tbody>
 <tr>
   <td>Madame de Bovary</td>
   <td>Gustave Flaubert</td>
@@ -179,16 +198,67 @@
   <td>1885</td>
   <td>OK !</td>
 </tr>
+</tbody>
 
-<tr>
-  <th>Title</th>
-  <th>Author</th>
-  <th>Year</th>
-  <th>Comment</th>
-</tr>
+<tfoot>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Year</th>
+    <th>Comment</th>
+  </tr>
+</tfoot>
 </table>
 
+<!-- Exercice 5 -->
+<h2>Exercice5</h2>
+<table>
 
+<thead>
+<tr>
+  <th rowspan="2">Groupes</th>
+  <th colspan="5">Mois (Mars)</th>
+  <th rowspan="2"></th>
+</tr>
+</thead>
 
-  </body>
+<tbody>
+<tr>
+  <th></th>
+  <th>Lundi</th>
+  <th>Mardi</th>
+  <th>Mercredi</th>
+  <th>Jeudi</th>
+  <th>Vendredi</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th>Groupe A</th>
+  <th colspan="3">Task one</th>
+  <th colspan="2">Task two</th>
+  <th rowspan="2">Semaine 1</th>
+</tr>
+
+<tr>
+  <th>Groupe B</th>
+  <th colspan="2">Task one</th>
+  <th colspan="3">Task two</th>
+</tr>
+
+<tr>
+  <th>Groupe A</th>
+  <th colspan="3">Task three</th>
+  <th colspan="2">Task four</th>
+  <th rowspan="2">Semaine 2</th>
+</tr>
+
+<tr>
+  <th>Groupe B</th>
+  <th colspan="2">Task Three</th>
+  <th colspan="3">Task Four</th>
+</tr>
+</tbody>
+</table>
+</body>
 </html>
